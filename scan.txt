@@ -1,0 +1,68 @@
+# Nmap 7.99 scan initiated Thu Apr  9 11:54:37 2026 as: nmap -sS -oN scan.txt 172.20.10.5/24
+Nmap scan report for 172.20.10.1
+Host is up (0.0026s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT      STATE SERVICE
+21/tcp    open  ftp
+53/tcp    open  domain
+49152/tcp open  unknown
+62078/tcp open  iphone-sync
+MAC Address: 8A:20:0D:36:C9:64 (Unknown)
+
+Nmap scan report for 172.20.10.5
+Host is up (0.00015s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3306/tcp open  mysql
+
+Nmap scan report for 172.20.10.17
+Host is up (0.033s latency).
+All 1000 scanned ports on 172.20.10.17 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+
+Nmap scan report for 172.20.10.55
+Host is up (0.037s latency).
+All 1000 scanned ports on 172.20.10.55 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+
+Nmap scan report for 172.20.10.61
+Host is up (0.037s latency).
+All 1000 scanned ports on 172.20.10.61 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+
+Nmap scan report for 172.20.10.64
+Host is up (0.039s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap scan report for 172.20.10.85
+Host is up (0.040s latency).
+All 1000 scanned ports on 172.20.10.85 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+
+Nmap scan report for 172.20.10.94
+Host is up (0.038s latency).
+All 1000 scanned ports on 172.20.10.94 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+
+Nmap scan report for 172.20.10.121
+Host is up (0.042s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Nmap scan report for 172.20.10.124
+Host is up (0.043s latency).
+All 1000 scanned ports on 172.20.10.124 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+
+Nmap scan report for 172.20.10.157
+Host is up (0.046s latency).
+All 1000 scanned ports on 172.20.10.157 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+
+# Nmap done at Thu Apr  9 12:00:28 2026 -- 256 IP addresses (11 hosts up) scanned in 350.90 seconds
